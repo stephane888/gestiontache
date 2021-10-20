@@ -10,3 +10,9 @@
   max-width: 100%;
   width: 100%;
 }
+
+.c-icon:not(.c-icon-c-s):not(.c-icon-custom-size) {
+  width: 1.5rem;
+  height: 1.5rem;
+  font-size: 1.4rem;
+}
