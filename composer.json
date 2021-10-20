@@ -1,7 +1,7 @@
 {
     "name": "stephane888/gestiontache",
     "description": "Theme enfant pour wb_universe",
-    "type": "drupal-theme",
+    "type": "drupal-theme-custom",
     "license": "GPL-2.0-or-later",
     "authors": [
         {
