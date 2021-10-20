@@ -1,0 +1,14 @@
+<?php
+use Drupal\gestiontache\JobseekersResouces;
+use Drupal\Core\Form\FormStateInterface;
+use Symfony\Component\HttpFoundation\Request;
+
+/**
+ * Implement hook_preprocess_page
+ */
+function gestiontache_preprocess_page(&$variables)
+{
+  JobseekersResouces::wbupreprocess_page($variables);
+}
+
+

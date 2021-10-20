@@ -1,0 +1,10 @@
+global-style:
+  css:
+    theme:
+      css/page-default.css: {}  
+  js: 
+    js/page-default.js: {}
+  dependencies:
+    - core/jquery
+    - core/drupal
+

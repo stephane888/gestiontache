@@ -1,0 +1,29 @@
+name: gestiontache
+type: theme
+description: "Theme Pour entrprise"
+core: 8.x
+core_version_requirement: ^8 || ^9
+base theme: wb_universe
+dependencies:
+  - drupal:wb_universe
+  - drupal:pathauto
+logo: images/logo.png
+screenshot: images/gestiontache.png
+
+regions:
+  top_header: "Top header"
+  header: "Header"
+  hero_slider: "Hero slider"
+  content: "Contenu principal"
+  call_to_action: "Call to action"
+  footer: "Footer"
+
+# Ajout des librairies
+libraries:
+  - gestiontache/global-style
+# Supprimer les librairies du themes parent.
+#libraries-override:
+#wb_universe/fontawesome: false
+#wb_universe/google-police: false
+#wb_universe/google-analytics: false
+
